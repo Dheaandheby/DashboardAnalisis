@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # ========== Load Data & Model ==========
 @st.cache_data
 def load_data():
-    df = pd.read_csv("D:\KP\dashboard sentimen\cleaned_reviews.csv.xlsx")
+    df = pd.read_csv("D:\KP\dashboard sentimen\cleaned_reviews.csv")
     return df
 
 df = load_data()
